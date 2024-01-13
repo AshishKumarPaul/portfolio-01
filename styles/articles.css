@@ -1,0 +1,31 @@
+section#Articles > article{
+			width: 800px;
+			margin: 20px auto;
+			background-color: white;
+			padding: 20px;
+			border-radius: 8px;
+			margin-bottom: 20px;
+			}
+	
+		section#Articles > article > div {
+			border-left: 4px solid #EEE;
+			padding-left: 10px;
+			}
+			
+		section#Articles > article > a{
+			color: #666;
+			width: 90px;
+			display: inline-block;
+			padding: 10px;
+			background-image: url("../img/right-arrow-dark.png");
+			background-repeat: no-repeat;
+			background-position: right;
+			border-radius: 4px;
+			border: 5px;
+			}
+	
+		section#Articles > article >  a:hover{
+			backrground-color: black;
+			color: white;
+			background-image: url("../img/right-arrow-light.png");
+			}
