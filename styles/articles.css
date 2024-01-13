@@ -1,4 +1,4 @@
-section#Articles > article{
+	article > article{
 			width: 800px;
 			margin: 20px auto;
 			background-color: white;
@@ -7,12 +7,12 @@ section#Articles > article{
 			margin-bottom: 20px;
 			}
 	
-		section#Articles > article > div {
+			article > article > div {
 			border-left: 4px solid #EEE;
 			padding-left: 10px;
 			}
 			
-		section#Articles > article > a{
+			article > article > a{
 			color: #666;
 			width: 90px;
 			display: inline-block;
@@ -24,7 +24,7 @@ section#Articles > article{
 			border: 5px;
 			}
 	
-		section#Articles > article >  a:hover{
+			article > article >  a:hover{
 			backrground-color: black;
 			color: white;
 			background-image: url("../img/right-arrow-light.png");
