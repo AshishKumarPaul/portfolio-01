@@ -1,0 +1,9 @@
+div.container{
+			display: grid;
+			grid-template-columns: repeat(2, 350px);
+			grid-template-rows: repeat(2,350px);
+			align-items: center;
+			justify-content: center;
+			margin: 30px;
+			padding: auto;
+			}
