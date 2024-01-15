@@ -7,25 +7,59 @@
 			margin-bottom: 20px;
 			}
 	
-			article > article > div {
-			border-left: 4px solid #EEE;
+			article > article > div.date{
+			border-left:4px solid #EEE;
 			padding-left: 10px;
+			margin-right: 5px;
 			}
 			
-			article > article > a{
+			article > article > div.button{
+			border: 5px;
+			}
+			
+			article > article > div.button2{
+			border: 5px solid black;
+			border-background: black;
+			
+			}
+			article > article > div.button > a{
 			color: #666;
 			width: 90px;
 			display: inline-block;
-			padding: 10px;
+			padding: 10px 10px;
 			background-image: url("../img/right-arrow-dark.png");
 			background-repeat: no-repeat;
 			background-position: right;
 			border-radius: 4px;
-			border: 5px;
+			border: 2px  ;
+			text-decoration: none;
+			transition: all .6s;
+	
 			}
 	
-			article > article >  a:hover{
+			article > article > div.button >  a:hover{
 			backrground-color: black;
 			color: white;
 			background-image: url("../img/right-arrow-light.png");
+			}
+
+			article > article > div.button-sec a{
+			color: #666;
+			width: 90px;
+			display: inline-block;
+			padding: 10px 10px;
+			background-image: url("../img/right-arrow-light.png");
+			background-repeat: no-repeat;
+			background-position: right;
+			border-radius: 4px;
+			border: 5px  ;
+			text-decoration: none;
+			transition: all .6s;	
+			background-color: black;
+			}
+			
+			article > article > div.button-sec >  a:hover{
+			backrground-color: white;
+			color: black;
+			background-image: url("../img/right-arrow-dark.png");
 			}
