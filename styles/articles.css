@@ -43,3 +43,11 @@
 			color: white;
 			background-image: url("../img/right-arrow-light.png");
 			}
+
+
+			@media screen and (max-width: 425px)
+	{
+			article#discription > article{	
+			width: 360px;
+							}
+	]
