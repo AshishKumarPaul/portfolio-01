@@ -1,0 +1,52 @@
+			article#discription > article{
+			width: 800px;
+			margin: 20px auto;
+			background-color: white;
+			padding: 20px;
+			border-radius: 8px;
+			margin-bottom: 20px;
+			}
+	
+			article#discription > article > div.date{
+			border-left:4px solid #EEE;
+			padding-left: 10px;
+			margin-right: 5px;
+			}
+			
+			article#discription > article > div.button{
+			border: 5px;
+			}
+			
+			article#discription > article > div.button2{
+			border: 5px;
+			border-background: black;
+			}
+		
+			article#discription  a{
+			color: #666;
+			width: 90px;
+			display: inline-block;
+			padding: 10px 10px;
+			background-image: url("../img/right-arrow-dark.png");
+			background-repeat: no-repeat;
+			background-position: right;
+			border-radius: 4px;
+			border: 5px;
+			text-decoration: none;
+			transition: all .6s;
+			background-color: white;
+			}
+	
+			article#discription a:hover{
+			background-color: black;
+			color: white;
+			background-image: url("../img/right-arrow-light.png");
+			}
+			
+			@media screen and (max-width: 425px){
+			article#discription > article{
+			width: 360px;
+			padding: 10px 10px;
+			margin: auto;
+			}
+			}
