@@ -5,25 +5,25 @@
 			padding: 20px;
 			border-radius: 8px;
 			margin-bottom: 20px;
-			}
+	}
 	
 			article#discription > article > div.date{
 			border-left:4px solid #EEE;
 			padding-left: 10px;
 			margin-right: 5px;
-			}
+	}
 			
 			article#discription > article > div.button{
 			border: 5px;
-			}
+	}
 			
 			article#discription > article > div.button2{
 			border: 5px;
 			border-background: black;
-			}
+	}
 		
 			article#discription  a{
-			color: #666;
+			color: var(--primary-font-color);
 			width: 90px;
 			display: inline-block;
 			padding: 10px 10px;
@@ -35,18 +35,24 @@
 			text-decoration: none;
 			transition: all .6s;
 			background-color: white;
-			}
+	}
 	
 			article#discription a:hover{
-			background-color: black;
+			background-color: var(--button-background);
 			color: white;
 			background-image: url("../img/right-arrow-light.png");
-			}
+	}
 			
+			article#discription  p{
+			color: var(--primary-font-color);
+			font-family: arial;
+			font-size: 14px;
+
+	}
 			@media screen and (max-width: 425px){
 			article#discription > article{
 			width: 360px;
 			padding: 10px 10px;
 			margin: auto;
-			}
-			}
+	}
+	}
