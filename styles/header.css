@@ -1,4 +1,4 @@
-	nav{
+			nav{
 			background-color: white;
 			height: 30px;
 			padding: 10px;
@@ -13,7 +13,7 @@
 			margin: 0;
 			padding: 0;
 			display: flex;
-			gap: 10px;
+			gap: 50px;
 			justify-content: center;
 		}	
 		
@@ -23,6 +23,7 @@
 			line-height: 1.6;
 			font-weight: bold;
 			text-decoration: none;	
+			font-family: arial;
 		}
 			nav > ul > li > a:hover{
 			color:black;
