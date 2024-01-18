@@ -1,0 +1,47 @@
+	nav{
+			background-color: white;
+			height: 30px;
+			padding: 10px;
+			width: 500px;
+			margin: 75px auto 0 auto;
+			border-radius: 25px;
+			box-shadow: 0px 4px 6px 0px #dedede;
+		}
+			
+			ul{
+			list-style-type: none;
+			margin: 0;
+			padding: 0;
+			display: flex;
+			gap: 10px;
+			justify-content: center;
+		}	
+		
+			nav > ul > li > a {
+			color: var(--primary-font-color)
+			padding: 5px 10px;
+			line-height: 1.6;
+			font-weight: bold;
+			text-decoration: none;	
+		}
+			nav > ul > li > a:hover{
+			color:black;
+		}
+		
+			@media screen and (max-width: 425px){		
+			nav{
+				width:40px;
+				border-radius: 50%;
+				height: 40px;
+				z-index: 1;
+				background-color: #EEE;
+				padding: 10px 10px;
+				position: fixed;
+				right: 110px;
+		}
+				
+				nav > ul > li > a{
+				display: none;
+		}
+			
+		}
